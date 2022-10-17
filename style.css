@@ -43,3 +43,18 @@ width: 100px;
 background-color: #daa520;
 }
 
+.testo-flex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 500px;
+    background-color: #00008b;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    height: 400px;
+    width: 60%;
+    background-color: #ee82ee;
+}
