@@ -7,9 +7,11 @@
 
 header{
     background-color: #add8e6;
-    height: 80px;
 }
 
+nav{
+    padding: 10px 0;
+}
 
 .flex{
     display: flex;
@@ -17,12 +19,14 @@ header{
     justify-content: center;
     align-items: center;
 }
+.container{
+    padding-left:350px;
+}
 
 .logo{
     text-align: left;
     border: dashed black;
     height: 30px;
-    width: 100px;
     background-color: #daa520;
 }
 
@@ -30,7 +34,6 @@ header{
     text-align: center;
     border: dashed black;
     height: 30px;
-    width: 330px;
     background-color: #daa520;
 
 }
@@ -39,7 +42,6 @@ header{
 text-align: right;
 border: dashed black;
 height: 30px;
-width: 100px;
 background-color: #daa520;
 }
 
@@ -49,6 +51,7 @@ background-color: #daa520;
 }
 
 .item{
+    border: dashed black;
     height: 400px;
     width: 60%;
     background-color: #ee82ee;
@@ -60,12 +63,14 @@ background-color: #daa520;
 }
 
 .immagine{
+    border: dashed black;
     height: 400px;
     width: 40%;
     background-color:#1e90ff;
 }
 
 .descrizione{
+    border: dashed black;
     height: 400px;
     width: 25%;
     background-color:#ffc0cb;
@@ -78,12 +83,45 @@ background-color: #daa520;
 
 
 .trovarsi-facile{
+    border: dashed black;
     height: 400px;
     width: 25%;    
     background-color:#ffc0cb;
 }
 .chiamata{
+    border: dashed black;
     height: 400px;
     width: 40%;
     background-color:#1e90ff;
+}
+
+.box{
+    border: dashed black;
+    height: 700px;
+    width: 65%;
+    background-color: #228b22;
+}
+
+.colore{
+    height: 800px;
+    background-color:#d3d3d3;
+}
+
+.piè{
+    height: 700px;
+    background-color: #23272a;
+}
+
+.app{
+    border: dashed black;
+    background-color:#f08080;
+    height: 500px;
+    width: 25%;
+}
+
+.contatti{
+    border: dashed white;
+    background-color:#20b2aa;
+    height: 500px;
+    width: 10%;
 }
