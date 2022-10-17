@@ -125,3 +125,28 @@ background-color: #daa520;
     height: 500px;
     width: 10%;
 }
+
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-bottone{
+    background-color: #ffb6c1;
+    border: dashed black;
+    width: 60px;
+}
+
+.color{
+    background-color:#23272a;
+    height: 80px; 
+    margin-top: 1px;
+}
+.sfondo{
+    background-color: #7fffd4;
+    height: 60px;
+    width: 65%;
+}
